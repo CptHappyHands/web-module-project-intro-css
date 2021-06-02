@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /*border: 1px solid grey;*/
+}
+
+/*General Styles*/
+html {
+    font-size 62.5%
+}
+
+body {
+    font-size: 1.6 rem;
+    line-height: 1.5;
+    color: #4F4F4F;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+
+section {
+    padding: 2% 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    padding: 1% 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 8%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.orange {
+background-color: #FF764E;
+margin-left: 10%;
+}
+
+.blue {
+background-color: #5ED3EB;
+margin: 0 25%;
+}
+
+.yellow {
+background-color: #FFCD69;
+margin-right: 10%;
+}
+
+/*Top section styles*/
+
+.top {
+    text-align: center;
+    position: relative;
+
+}
+
+.left img {
+    border-radius: 50%;
+    margin-left: -125%;
+    width: 75%;
+}
+
+.left, .right {
+display: inline-block;
+text-align: center;
+width: 48%;
+}
+
+.left {
+    width: 40%;
+    right: 50%;
+    border: none;
+}
+
+.right {
+    width: 45%;
+    /*margin-left: 3%;*/
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+
+.bold {
+font-weight: bold;
+}
+
+
+
+
+/*background image selection*/
+
+/*.heroImg {
+    height: 40vh;
+    background-image: url('assets/footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}*/
+
+.footerImg {
+    height: 50vh;
+    background-image:url("assets/footer_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin: 1% 0;
+}
+
+.paragraph {
+    background-color: coral;
+    padding: 1% 0;
+}
+
+.campfireImage {
+    display:block;
+    width: 20%;
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+
+.campfireParagraph {
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: center;
+}
+
+.camperImage {
+display: block;
+width: 20%;
+margin-left: auto;
+  margin-right: auto;
+}
+
+.camperParagraph {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-bottom: 3%;
+    text-align: center;
+}
